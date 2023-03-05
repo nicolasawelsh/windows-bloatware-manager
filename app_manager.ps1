@@ -23,30 +23,30 @@ function Manage-App {
     }
 }
 
-$ProgramHash = @{"Microsoft.Microsoft3DViewer"="3D Viewer";
-                 "Microsoft.WindowsAlarms"="Alarms and Clock";
-                 "Microsoft.WindowsCommunicationsApps"="Calendar and Mail";
-                 "Microsoft.WindowsCamera"="Camera";
-                 "Microsoft.MicrosoftOfficeHub"="Get Office";
-                 "Microsoft.SkypeApp"="Skype";
+$ProgramHash = @{"Microsoft.BingWeather"="Weather";
                  "Microsoft.Getstarted"="Tips";
                  "Microsoft.GetHelp"="Get Help";
-                 "Microsoft.ZuneMusic"="Groove Music";
-                 "Microsoft.WindowsMaps"="Maps";
+                 "Microsoft.Microsoft3DViewer"="3D Viewer";
+                 "Microsoft.MicrosoftOfficeHub"="Get Office";
                  "Microsoft.MicrosoftSolitaireCollection"="Solitaire Collection";
+                 "Microsoft.MicrosoftStickyNotes"="Sticky Notes";
+                 "Microsoft.MixedReality.Portal"="Mixed Reality Portal";
+                 "Microsoft.MSPaint"="Paint 3D";
                  "Microsoft.Office.OneNote"="OneNote";
                  "Microsoft.People"="People";
-                 "Microsoft.WindowsSoundRecorder"="Voice Recorder";
-                 "Microsoft.BingWeather"="Weather";
+                 "Microsoft.SkypeApp"="Skype";
                  "Microsoft.Wallet"="Wallet";
-                 "Microsoft.WindowsFeedbackHub"="Feedback Hub";
-                 "Microsoft.YourPhone"="Your Phone";
-                 "Microsoft.MSPaint"="Paint 3D";
-                 "Microsoft.MicrosoftStickyNotes"="Sticky Notes";
-                 "Microsoft.ZuneVideo"="Movies & TV";
-                 "Microsoft.Windows.Photos"="Photos";
+                 "Microsoft.WindowsAlarms"="Alarms and Clock";
                  "Microsoft.WindowsCalculator"="Calculator";
-                 "Microsoft.MixedReality.Portal"="Mixed Reality Portal";
+                 "Microsoft.WindowsCamera"="Camera";
+                 "Microsoft.WindowsCommunicationsApps"="Calendar and Mail";
+                 "Microsoft.WindowsFeedbackHub"="Feedback Hub";
+                 "Microsoft.WindowsMaps"="Maps";
+                 "Microsoft.Windows.Photos"="Photos";
+                 "Microsoft.WindowsSoundRecorder"="Voice Recorder";
+                 "Microsoft.YourPhone"="Your Phone";
+                 "Microsoft.ZuneMusic"="Groove Music";
+                 "Microsoft.ZuneVideo"="Movies & TV";
                  "xbox"="Xbox Apps";
                 }
 
@@ -60,6 +60,3 @@ Write-Host "Restart your system after making any changes."
 To reinstall all default windows apps run the following:
     Get-AppxPackage -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 #>
-
-
-
