@@ -10,7 +10,6 @@ function Manage-App {
         Write-Host
     } elseif ($choice -eq 'r') {
         Add-AppxPackage -register "C:\Program Files\WindowsApps\$ProgramName*\appxmanifest.xml" -DisableDevelopmentMode
-        #Get-AppxPackage -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "C:\Program Files\WindowsApps\$ProgramName*\appxmanifest.xml"}
         Write-Host "$($ProgramHash.$ProgramName) installed."
         Write-Host
     } elseif ($choice -eq 'i') {
