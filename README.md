@@ -15,7 +15,7 @@ Below is a screenshot of the default view of the Windows start menu on a fresh i
 ---
 ### Caution
 
-PowerShell is a powerfull Windows scripting language that could enable a user to unkowningly cause irreversible damage to their system.
+PowerShell is a powerfull Windows scripting language that could enable a user to unknowingly cause irreversible damage to their system.
 I encourage anyone who utilizes this script to verify they understand the code being executed.
 As this script is set up, the apps affected by the choices the user makes will carry over all users of the host machine.
 
