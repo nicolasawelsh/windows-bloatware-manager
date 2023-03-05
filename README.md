@@ -29,7 +29,7 @@ As this script is set up, the apps affected by the choices the user makes will c
 3. Download the PowerShell script from this repo\
 `cd ~\Downloads`\
 `Invoke-WebRequest https://github.com/nicolasawelsh/windows-bloatware-manager/blob/main/app_manager.ps1 -OutFile app_manager.ps1`
-4. Execute the script\
+4. Execute the script, follow the prompts to uninstall or reinstall Windows apps\
 `.\app_manager.ps1`
 5. Disallow script execution\
 `Set-ExecutionPolicy Restricted`
