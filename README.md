@@ -1,6 +1,6 @@
 # Windows Bloatware Manager
 
----
+
 ## Introduction
 
 Windows 10 and 11 come with pre-installed apps that can sometimes be unwanted by users. These apps not only take up space on the system but also impact the system's performance. This PowerShell script is designed to help the user remove or reinstall the pre-installed apps that could be considered bloatware on Windows 10 and 11.
@@ -21,12 +21,12 @@ Below is a screenshot of the default view of the Windows start menu on a fresh i
 5. Once done, disallow script execution by running the following command:\
 `Set-ExecutionPolicy Restricted`
 
----
+
 ## Caution
 
 PowerShell is a powerful Windows scripting language that could potentially cause irreversible damage to the system if not used properly. Before running this script, it is important to understand the code being executed. Also, note that the apps affected by the choices made during script execution will be applied to all users of the host machine.
 
----
+
 ## Reinstalling Default Windows Apps
 
 If at any point you wish to reinstall all default Windows apps, execute the following command in PowerShell:\
